@@ -18,7 +18,7 @@ pip install Flask. #install Flask for proj-repo env
 
 ## Projects
 
-### [blog-app](flask-tutorial/README.md)
+### [blog-app](flask-tutorial/)
 
 
 ## References
@@ -36,5 +36,7 @@ pip install Flask. #install Flask for proj-repo env
 ## Other notes/cheatsheet
 
 shutdown virtualenv: ```deactivate```
+
 To freeze current environment: ```pip freeze > requirements.txt```
+
 install all packages ```pip install -r requirements.txt```
