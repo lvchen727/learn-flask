@@ -1,4 +1,4 @@
-# [A Blog App based on Flask](flask-tutorial/)
+# [A Blog App based on Flask]
 
 1. [Application Setup](http://flask.pocoo.org/docs/1.0/tutorial/factory/)
 
