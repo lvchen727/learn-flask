@@ -20,6 +20,9 @@ pip install Flask. #install Flask for proj-repo env
 
 ### [blog-app](flask-tutorial/)
 
+### [microblog](simple-flask-heroku/)
+
+deploy app to heroku : https://medium.com/the-andela-way/deploying-a-python-flask-app-to-heroku-41250bda27d0
 
 ## References
 
@@ -27,16 +30,21 @@ pip install Flask. #install Flask for proj-repo env
 - [flask website](http://flask.pocoo.org/docs/1.0/tutorial/layout/)
 
 
-## Other good python tutorials
+## Other good tutorials notes
 
 -  [The Hitchhiker’s Guide to Python](https://docs.python-guide.org/)
+-  [heroku vs aws](https://www.cleveroad.com/blog/heroku-vs-aws--which-cloud-based-solution-to-choose-)
+-  [The Flask Mega](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world-legacy)
+-  [sublime cheatsheet](http://docs.sublimetext.info/en/latest/reference/keyboard_shortcuts_osx.html)
 
-
-
-## Other notes/cheatsheet
+## cheatsheet
 
 shutdown virtualenv: ```deactivate```
 
 To freeze current environment: ```pip freeze > requirements.txt```
 
 install all packages ```pip install -r requirements.txt```
+
+find heroku app name ``` heroku info -s | grep web_url | cut -d= -f2```
+
+find jobs running python ```ps -fA | grep python```
