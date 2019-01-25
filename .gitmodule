@@ -1,0 +1,6 @@
+[submodule "flask-tutorial"]
+    path = flask-tutorial
+    url = git@github.com:lvchen727/flask-tutorial.git
+[submodule "simple-flask-heroku"]
+    path = simple-flask-heroku
+    url = git@github.com:lvchen727/simple-flask-heroku.git
