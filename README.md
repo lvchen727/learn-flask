@@ -20,7 +20,7 @@ pip install Flask. #install Flask for proj-repo env
 
 ### [blog-app](flask-tutorial/)
 
-### [microblog](simple-flask-heroku/)
+### [microblog-heroku](https://github.com/lvchen727/microblog-heroku)
 
 deploy app to heroku : https://medium.com/the-andela-way/deploying-a-python-flask-app-to-heroku-41250bda27d0
 
