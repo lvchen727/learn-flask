@@ -47,3 +47,5 @@ install all packages ```pip install -r requirements.txt```
 find heroku app name ``` heroku info -s | grep web_url | cut -d= -f2```
 
 find jobs running python ```ps -fA | grep python```
+
+with python3, to start virtualenv ```python -m venv myvenv```
